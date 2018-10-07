@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Century Gothic', sans-serif;
+  text-align: center;
+  color: lightseagreen;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 12px;
+  font-family: 'Century Gothic', sans-serif;
+  text-align: center;
+  color: rgb(79, 211, 189);
+  padding: 15px;
+}
+
+#generate-btn {
+  background-color: #4CAF50;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#meme-form {
+  font-family: 'Century Gothic', sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+body {
+  background: rgba(221, 213, 213, 0.479)
+}
+
+.gallery {
+  list-style: none;
+  width: 100%;
+}
+
+.memes {
+	display: inline-block;
+	margin: 1%;
+	width: 500px;
+	height: auto;
+	text-align: center;
+	position: relative;
+	opacity: 1;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+.text {
+	font-family: Impact, Arial, sans-serif;
+	width: 500px;
+	font-size: 250%;
+	line-height: 1.1em;
+	letter-spacing: 1.5px;
+	color: black;
+   -webkit-text-fill-color: white; 
+   -webkit-text-stroke-width: 1.7px;
+   -webkit-text-stroke-color: black;
+   text-transform: uppercase;
+   overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  opacity: 1;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	z-index: 9;
+	max-height: 50%;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	z-index: 9;
+	max-height: 50%;
+}

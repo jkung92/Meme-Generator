@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Meme Generator</title>
+  </head>
+  <body>
+    <h1> Meme-Maker </h1>
+    <h2> After generating, you may click on the meme to remove it ! Have fun !!!</h2>
+
+  <section class="container">
+      <form id="meme-form">
+        <div>
+          <label>Top Text</label>
+          <input type="text" id="top-text">
+        </div>
+        <div>
+          <label>Bottom Text</label>
+          <input type="text" id="bottom-text">
+        </div>
+        <div>
+          <label>Image URL</label>
+          <input type="text" id="image">
+        </div>
+          <div> <button id="generate-btn">Generate!</button></div>
+      </form>
+  </section>
+  
+  <section class="meme-gallery">
+    <ul class="gallery"></ul>
+  </section>
+
+  <script src="script.js"></script>
+  </body>
+</html>
